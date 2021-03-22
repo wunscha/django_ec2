@@ -3,7 +3,7 @@ version: '3.8'
 services:
 
  web:
-  build: .
+  image: 451964186044.dkr.ecr.eu-west-3.amazonaws.com/django-ec2-ecr-repo:latest
   command: python /code/manage.py runserver 0.0.0.0:8000
   ports:
    - 8000:8000
